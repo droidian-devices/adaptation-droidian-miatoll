@@ -28,9 +28,9 @@ Description: adapatation-xiaomi-miatoll- meta
 Package: adaptation-miatoll-configs
 Architecture: all
 Depends: ${misc:Depends},
-Provides: getcutout, getoverlay, miatoll-settings
-Replaces: getcutout, getoverlay, miatoll-settings
-Conflicts: getcutout, getoverlay, miatoll-settings
+Provides: getcutout, getoverlay, miatoll-settings, mobile-quirks
+Replaces: getcutout, getoverlay, miatoll-settings, mobile-quirks
+Conflicts: getcutout, getoverlay, miatoll-settings, mobile-quirks
 Description: Miatoll's specific adaptation configs
 
 Package: adaptation-miatoll-android
