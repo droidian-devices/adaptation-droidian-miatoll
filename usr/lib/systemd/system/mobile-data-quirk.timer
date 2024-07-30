@@ -1,0 +1,10 @@
+[Unit]
+Description=Mobile data quirk
+
+[Timer]
+OnActiveSec=10
+OnUnitActiveSec=120
+Unit=mobile-data-quirk.service
+
+[Install]
+WantedBy=timers.target

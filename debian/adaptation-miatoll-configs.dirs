@@ -1,4 +1,5 @@
 /etc/environment.d
+/etc/ofono/binder.d
 /etc/phosh
 /etc/udev/rules.d
 /usr/bin

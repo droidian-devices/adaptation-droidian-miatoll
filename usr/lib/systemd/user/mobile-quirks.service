@@ -1,0 +1,9 @@
+[Unit]
+Description=Mobile quirks
+
+[Service]
+ExecStartPre=/usr/bin/sleep 5
+ExecStart=/usr/bin/mobile-quirks.sh
+
+[Install]
+WantedBy=default.target
