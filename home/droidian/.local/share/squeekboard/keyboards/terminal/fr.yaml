@@ -1,12 +1,12 @@
 ---
 outlines:
-    action:    { width: 59,    height: 46 }
-    small:     { width: 50,    height: 22 }
-    default:   { width: 42, height: 46 }
-    altline:   { width: 48,    height: 46 }
-    wide:      { width: 50,    height: 46 }
-    spaceline: { width: 110,   height: 46 }
-    special:   { width: 44,    height: 46 }
+    action:    { width: 59,    height: 50 }
+    small:     { width: 50,    height: 36 }
+    default:   { width: 42, height: 50 }
+    altline:   { width: 48,    height: 50 }
+    wide:      { width: 50,    height: 50 }
+    spaceline: { width: 110,   height: 50 }
+    special:   { width: 44,    height: 50 }
 
 views:
     base:
