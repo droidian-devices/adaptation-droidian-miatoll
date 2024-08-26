@@ -1,5 +1,0 @@
-[Unit]
-Description=Mobile data quirk
-
-[Service]
-ExecStart=/usr/bin/mobile-data-quirk.sh
