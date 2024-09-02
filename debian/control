@@ -19,6 +19,7 @@ Depends: ${misc:Depends},
          gstreamer1.0-tools,
          mobile-power-saver,
          fpd-unlock,
+	 phosh-osk-stub,
          mobile-settings,
          battery-input-manager
 Description: adapatation-xiaomi-miatoll- meta
@@ -36,8 +37,3 @@ Package: adaptation-miatoll-android
 Architecture: all
 Depends: ${misc:Depends},
 Description: Miatoll's specific adaptation for Android. This will disable many Android binaries, remove me if something breaks.
-
-Package: adaptation-miatoll-keyboard-fr
-Architecture: all
-Depends: squeekboard
-Description: Miatoll's specific adaptation for french Keyboard.
