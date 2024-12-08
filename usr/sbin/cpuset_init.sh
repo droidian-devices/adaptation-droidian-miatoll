@@ -9,21 +9,6 @@ do
     echo 0-7 > /dev/cpuset/$i/cpus
     echo 0 > /dev/cpuset/$i/mems
     chgrp droidian /dev/cpuset/$i/tasks
-
-    [[ ! -f /dev/shm/cpuset/$i/services ]] && continue
-
-    services=$(</dev/shm/cpuset/$i/services)
-
-    for service in $services
-    do
-        procs=$(</sys/fs/cgroup/system.slice/$service/cgroup.procs)
-        while IFS= read -r proc
-        do
-            [[ "$proc" == "$$" ]] && continue
-            echo $proc > /dev/cpuset/$i/tasks
-        done <<< "$procs"
-    done
-
 done
 
 exit 0
