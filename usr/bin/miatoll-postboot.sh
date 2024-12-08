@@ -21,10 +21,3 @@ s/.*high-priority.*/;high-priority = yes/g
 s/.*avoid-resampling.*/avoid-resampling = true/g
 ' /etc/pulse/daemon.conf
 
-echo 0-2 > /dev/cpuset/background/cpus
-echo 0-5 > /dev/cpuset/system-background/cpus
-
-for i in top-app foreground camera-daemon
-do
-    echo 0-7 > /dev/cpuset/$i/cpus
-done
