@@ -18,8 +18,9 @@ Depends: ${misc:Depends},
          droidian-camera,
          gstreamer1.0-tools,
          mobile-power-saver,
+         mobile-power-saver-droidian-miatoll,
          fpd-unlock,
-	 phosh-osk-stub,
+         phosh-osk-stub,
          mobile-settings,
          battery-input-manager
 Description: adapatation-xiaomi-miatoll- meta
