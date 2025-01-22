@@ -6,3 +6,6 @@ ambient-brightness-points = {1: 1, 5: 3, 10: 5, 50: 8, 100: 10, 300: 15, 500: 20
 
 [eu.medesimo.Libdroid]
 backlight-max-alternate = 4095
+
+[mobi.phosh.shell.proximity]
+enable-proximity-sensor = false
