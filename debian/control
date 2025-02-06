@@ -25,6 +25,7 @@ Depends: ${misc:Depends},
          fpd-unlock,
          phosh-osk-stub,
          mobile-settings,
+         headphone-manager,
          battery-input-manager
 Description: adapatation-xiaomi-miatoll- meta
  Miatoll api29 adaptation metapackage
