@@ -1,0 +1,14 @@
+# Disable headphone wakeup key
+ACTION=="add|change", SUBSYSTEM=="input", \
+  ENV{ID_PATH}=="platform-soc:qcom,msm-audio-apr:qcom,q6core-audio:sound", \
+  ENV{GM_WAKEUP_KEY_DEFAULT}="0"
+
+# Disable volume down wakeup key
+ACTION=="add|change", SUBSYSTEM=="input", \
+  ENV{ID_PATH}=="platform-c440000.qcom,spmi-platform-c440000.qcom,spmi:qcom,pm6150@0:qcom,power-on@800", \
+  ENV{GM_WAKEUP_KEY_114}="0"
+
+# Disable volume up wakeup key
+ACTION=="add|change", SUBSYSTEM=="input", \
+  ENV{ID_PATH}=="platform-soc:gpio_keys", \
+  ENV{GM_WAKEUP_KEY_115}="0"
