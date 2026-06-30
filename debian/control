@@ -1,5 +1,5 @@
 Source: adaptation-xiaomi-miatoll
-Maintainer: Cedric Bellegarde
+Maintainer: Cedric Bellegarde <cedric.bellegarde@adishatz.org>
 Section: metapackages
 Priority: optional
 Build-Depends: debhelper (>= 10)
