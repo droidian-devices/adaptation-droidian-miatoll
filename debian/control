@@ -33,9 +33,9 @@ Description: adapatation-xiaomi-miatoll- meta
 Package: adaptation-miatoll-configs
 Architecture: all
 Depends: ${misc:Depends},
-Provides: getcutout, getoverlay, miatoll-settings, mobile-quirks, adishatz-apt-config, adishatz-apt-config-preview, adishatz-apt-config-test
-Replaces: getcutout, getoverlay, miatoll-settings, mobile-quirks, adishatz-apt-config, adishatz-apt-config-preview, adishatz-apt-config-test
-Conflicts: getcutout, getoverlay, miatoll-settings, mobile-quirks, adishatz-apt-config, adishatz-apt-config-preview, adishatz-apt-config-test
+Provides: miatoll-settings, mobile-quirks, adishatz-apt-config, adishatz-apt-config-preview, adishatz-apt-config-test
+Replaces: miatoll-settings, mobile-quirks, adishatz-apt-config, adishatz-apt-config-preview, adishatz-apt-config-test
+Conflicts: miatoll-settings, mobile-quirks, adishatz-apt-config, adishatz-apt-config-preview, adishatz-apt-config-test
 Description: Miatoll's specific adaptation configs
 
 Package: adaptation-miatoll-android
